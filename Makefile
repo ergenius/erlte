@@ -1,9 +1,9 @@
-.PHONY: all deps compile clean doc test
+.PHONY: all deps compile clean doc test hexbuild
 
 REBAR=$(shell which rebar3 || echo ./rebar3)
 REBAR_URL=https://s3.amazonaws.com/rebar3/rebar3
 
-all: clean compile test doc
+all: clean compile test doc hexbuild
 
 clean: $(REBAR)
 	$(REBAR) clean
@@ -20,6 +20,9 @@ test: $(REBAR)
 
 doc: $(REBAR)
 	$(REBAR) ex_doc
+
+hexbuild: $(REBAR)
+	$(REBAR) hex build
 
 # Get rebar3 if it doesn't exist. If rebar3 was found on PATH, the
 # $(REBAR) dep will be satisfied since the file will exist.
