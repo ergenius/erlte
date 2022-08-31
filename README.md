@@ -22,7 +22,7 @@ The need for erlte arose while using good old sgte in various web applications. 
 ## Limitations
 - Only JavaScript static import declarations are supported.
 - CSS @import rules work fine only with file strings (no list of media queries or url are supported).
-- Erlte "compiler" is far away from a full parser. It behaves well for most scenarios, but some corner cases may exist. As long as you use single line imports and you don't nest unescaped comments or imports in strings, you should be fine.
+- erlte "compiler" is far away from a full HTML/JS/CSS parser. It behaves well for most scenarios, but some corner cases may exist. As long as you use single line imports and you don't nest unescaped comments or imports in strings, you should be fine.
 - erlte does not support any conditionals or pseudocode and will probably never do. For some, this is a limitation, for me, it's a feature. The price of implementing this will be a much slower rendering speed. I also don't like polluting my HTML templates with spaghetti code. We have JavaScript for that.
 
 ## Alternatives
