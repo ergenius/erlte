@@ -4,6 +4,8 @@ Fast Erlang template library with bundling support for HTML, JavaScript and CSS 
 
 [![Erlang CI](https://github.com/ergenius/erlte/actions/workflows/erlang.yml/badge.svg)](https://github.com/ergenius/erlte/actions/workflows/erlang.yml)
 
+Erlte is also available on [HEX](https://hex.pm/packages/erlte).
+
 ## Motivation
 The need for erlte arose while using good old sgte in various web applications. I was quite happy with the simplicity of sgte for many years, but concerned about the rendering speed. When I finally replaced sgte with my new shiny library, I could see around 5x times faster rendering speed!
 
