@@ -1,0 +1,10 @@
+Hey {{user_name}},
+
+I’m {{name}}, the founder of {{company name}} and I’d like to personally thank you for signing up to our service.
+
+We established {{company name}} in order to {{mission}}.
+
+I’d love to hear what you think of {{product}} and if there is anything we can improve. If you have any questions, please reply to this email. I’m always happy to help!
+
+Thanks,
+{{full_name}}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+    .form-wrapper {
+      width: 90%;
+    }
+  }
+  
+  .text-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+  /* a { color: blue } */
+/**/
+/* */
+  .text-register {
+    margin-bottom: 1em;
+  }
+  
+  .input {
+    margin-bottom: 2em;    
+    transition:
+      border 0.2s ease-in-out,
+      box-shadow 0.2s ease-in-out,
+      -webkit-box-shadow 0.2s ease-in-out;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 2px;
+    padding: 1em 8px;
+    font-size: 14px;
+  }
