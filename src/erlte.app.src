@@ -1,5 +1,5 @@
 {application, erlte,
- [{description, "ERLang TEmplate library"},
+ [{description, "Fast ERLang TEmplate library with bundling support for HTML, JavaScript and CSS files"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
@@ -9,5 +9,7 @@
   {env,[]},
   {modules, []},
   {licenses, ["MIT"]},
-  {links, ["https://github.com/ergenius/erlte"]}
+  {links, [{"GitHub", "https://github.com/ergenius/erlte"}]},
+  {files, ["CHANGELOG.md", "LICENSE", "Makefile", "README.md", "rebar.config", "doc", "examples", "include", "src", "test"]},
+  {exclude_paths, ["rebar.lock"]}
  ]}.
