@@ -41,7 +41,7 @@ The need for erlte arose while using good old sgte in various web applications. 
 - Cache the compilation result for later usage. Helpers for saving compiled templates to files are provided.
 - Render the compiled template.
 
-## Examples
+## Usage
 
 ### Erlang examples
 
